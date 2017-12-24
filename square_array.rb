@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  new_array = array.clone
+  new_array.each {|x| x**2}
+  return new_array 
 end
